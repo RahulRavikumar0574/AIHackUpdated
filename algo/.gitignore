@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE/editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# Test/coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+logs/
+*.log
+
+# ML/artifacts
+*.joblib
+*.pkl
+
+# Data (input) - large source files
+final_model_ready_data.csv
+
+# Optional: ignore generated artifacts (uncomment if you don't want them in git)
+# credit_approvals.csv
+# credit_analysis_model.png
+# credit_analysis_demographics.png
+# credit_report.md

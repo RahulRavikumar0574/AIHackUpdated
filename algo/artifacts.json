@@ -1,0 +1,8 @@
+{
+  "best_model_name": "ensemble",
+  "decision_threshold": 0.14507941024155024,
+  "metrics": {
+    "ROC_AUC": 0.7605227510030121,
+    "AP": 0.3618606118367215
+  }
+}

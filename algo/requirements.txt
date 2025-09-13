@@ -1,0 +1,11 @@
+pandas
+numpy
+lightgbm
+scikit-learn
+imbalanced-learn
+matplotlib
+seaborn
+joblib
+fastapi
+uvicorn
+torch
