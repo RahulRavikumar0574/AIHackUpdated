@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Datasets and artifacts
+algo/final_model_ready_data.csv
+algo/creditcard.csv
+algo/application_record.csv
+algo/credit_record.csv
+algo/models/
+algo/catboost_info/
+algo/experiments/outputs/
+algo/lgbm_warnings.log
+
+# Frontend
+card/node_modules/
+card/dist/
+card/.env
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
