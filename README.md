@@ -160,22 +160,22 @@ Open the printed URL (typically http://localhost:5173/) and submit the form. The
 
 ---
 
-## GitHub: Push this project
+## GitHub: Push to AIHackUpdated (keep existing origin)
 ```powershell
-# From repo root (AI-Hack1)
-git init
-git remote add origin https://github.com/Tarun-03/credit-card-prediction-AI
-git add .
-git commit -m "Initial commit: FastAPI ensemble, experiments, frontend, README"
-# If the GitHub repo is empty and you want this as the main branch
-git branch -M main
-git push -u origin main
+# From repo root
+git remote add aihackupdated https://github.com/RahulRavikumar0574/AIHackUpdated.git
+
+# Push main branch
+git push -u aihackupdated main
+
+# Push additional branch
+git push -u aihackupdated add-hackathon-doc
+
+# Optional: push tags or all branches
+git push --tags aihackupdated
+# git push --all aihackupdated
 ```
-If the remote already has history, pull first or create a new branch:
+If you prefer to replace `origin` instead of adding a new remote:
 ```powershell
-git fetch origin
-git checkout -b feature/setup
-git add .
-git commit -m "Add backend, experiments, frontend, README"
-git push -u origin feature/setup
+git remote set-url origin https://github.com/RahulRavikumar0574/AIHackUpdated.git
 ```
